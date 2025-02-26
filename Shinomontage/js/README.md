@@ -1,11 +1,5 @@
 Masked Input Plugin for jQuery
 ==============================
-**Notice: This project is no longer being maintained.**
-
-I started this project [over 10 years ago](https://forum.jquery.com/topic/jquery-introduction-and-masked-input-plugin) to fill a need for a side project I was working on at the time. Nothing ever became of that side project, but this little plugin lived on. Over the years it brought me joy to stumble on sites using this thing. It was super encouraging to hear from people using it in their own products. I tried for a while to maintain it, even after I had moved away from front end web development. 
-
-The time has come to officially call it quits. The web has changed(**A LOT**) and there are better things out there like [Cleave.js](https://nosir.github.io/cleave.js/). I'll leave this repo up for posterity in an archived state. Thank you to everyone who contributed to or used this plugin over the years.
-
 
 Overview
 --------
