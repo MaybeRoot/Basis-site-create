@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="libs/bootstrap-reboot.min.css">
+	<link rel="stylesheet" href="libs/bootstrap-grid.min.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="shortcut icon" href="outline2.ico" type="image/x-icon">
+    <script src="/js/jquery-3.7.0.js"></script>
+    <script src="/js/dist/jquery.maskedinput.min.js"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles2.css">
+    <title>Appointment</title>
+</head>
+<body>
+<form action="" class="form">
+    <h1 class="form_title">Запишитесь на диагностику</h1>
+    <div class="form_group">
+        <input type="text" maxlength = 20 class="form_input" placeholder=" ">
+        <label for="" class="form_label">Имя</label>
+        <script>
+            $('body').on('input', '.form_input', function(){
+	this.value = this.value.replace(/[^а-яё\s]/gi, '');
+});
+        </script>
+    </div>
+    <div class="form_group">
+        <input type="text"  class="phone" placeholder=" ">
+        <label for="" class="form_label">Телефон</label>
+        <script>
+        $(function(){
+          $(".phone").mask("+7(999) 999-99-99");
+        });
+        </script>
+    </div>
+    <div class="form_group">
+        <input type="text" class="form_mail" placeholder=" ">
+        <label for="" class="form_label">Email</label>
+        <script> $('body').on('input', '.form_mail', function(){
+            this.value = this.value.replace(/[^a-z0-9\.\@\s]/gi, '');
+        });</script>
+    </div>
+    <div class="">
+    <a href = success.html class="form_button">Записаться</button>
+    <a href = index.html  class="form_button2">Вернуться на главную</a>
+    </div>
+</form> 
+</body>
+</html>

@@ -1,0 +1,231 @@
+/**
+ * Базовые стили для всего сайта
+ */
+body {
+	position: relative;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1.4;
+	color: #000;
+	min-width: 320px;
+	overflow-x: hidden;
+	height: auto;
+}
+.navbar {
+position: sticky;
+width: 100%;
+height: 70px;
+box-shadow: 0 4px 10px rgba(0,0,0, .1);
+z-index: 3;
+background-color: #fff;
+top: 0;
+}
+.navbar .container {
+height: inherit;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.navbar-menu {
+list-style-type: none;
+padding-left: 0;
+margin-bottom: 0;	
+}
+.navbar-menu li {
+display: inline-block;
+}
+
+.navbar-menu li a {
+display: inline-block;
+color: #000;
+opacity: 0.7;
+text-decoration: none;
+padding: 10px;
+transition: all .1s ease-in-out;
+}
+.navbar-menu li a:hover {
+	opacity: 1;
+}
+.navbar-wrap{
+display: flex;
+flex-flow: row nowrap;
+}
+.madesome{
+margin-left: 30px;
+padding: 10px 30px;
+background-color: rgba(255, 195, 71);
+border-radius: 100px;
+color: #fff;
+box-shadow: 0 4px 6px rgba(255, 195, 71, .2);
+text-decoration: none;
+transition: all .2s ease-in-out;
+}
+.madesome:hover{
+transform: scale(1.05);
+color: #fff;
+box-shadow: 0 6px 7px rgba(255, 195, 71, .5) ;
+}
+.navbar-brand{
+font-weight: 700;
+font-size: 26px;
+text-decoration: none;
+color: #000;	
+transition: all .15s ease-in-out;
+}
+.navbar-brand:hover {
+color: rgba(255, 195, 71, 1);
+}
+.header {
+position: relative;
+min-height: 700px;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+
+}
+.header-content h1 {
+	color:#fff;
+	font-weight: 700;
+	font-size: 40px;
+}
+.header .row {
+min-height: 700px ;
+display: flex;
+align-items: center;
+}
+
+.header-content {
+position: relative;
+z-index: 2;
+text-align: center;
+color:#fff;
+}
+.overlay{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0,0,0, .6);
+}
+.container2 {
+margin: 0px 100px ; 
+}
+.aboutus{
+text-align: center;
+font-size:40px;
+font-weight:bolder;
+margin: 30px;
+}
+.aboutdesc{
+font-size: 18px;
+width: 450;
+align-self: center;
+max-width: 760px;
+margin: 0 auto;
+font-weight: 500;
+text-align: justify;
+}
+.abouttext {
+margin-top: 12px;	
+}
+.uslugi{
+	text-align: center;
+	font-size:40px;
+	font-weight:bolder;
+	margin: 30px;
+
+}
+.usldesc {
+	font-size: 22px;
+	width: 450;
+	align-self: center;
+	max-width: 760px;
+	margin: 0 auto;
+	font-weight: 500;
+	text-align: justify;
+}
+.card1 {
+background-color:#fff;
+width: 400px;
+border-radius: 20px;
+padding: 20px;
+box-shadow: 10px 10px 50px #434343;
+margin: 90px ;
+margin-top: 50px;
+height: auto;
+
+}
+.card-img {
+border-radius: 11px;	
+}
+.card-title {
+margin-top: 20px;
+font-size: 20px;
+font-weight: 500;	
+}
+.card-sub {
+font-size:16px;
+font-weight: 300;
+margin-top: 20px;	
+}
+.card-holder {
+display: flex;
+justify-content: space-between;
+}
+.box {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	font-size: 15px;
+	line-height: 22px;
+}
+.comments {
+	text-align: center;
+	font-size:40px;
+	font-weight:bolder;
+	margin: 30px;
+}
+.com1 {
+	background-color:#fff;
+	width: 900px;
+	border: 20px;
+	padding: 10px;
+	box-shadow: 0 6px 7px #434343;
+	margin: 30px ;
+	margin-top: 15px;
+	height: auto;
+	text-align: justify;
+}
+.com-title{
+	margin-top: 2px;
+	font-size: 20px;
+	font-weight: 500;	
+}
+.com-sub{
+	font-size:16px;
+	font-weight: 300;
+	margin-top: 2px;	
+}
+.com-holder-1 {
+display: flex;
+justify-content: left;
+margin-left: 7%;
+}
+.com-holder-2 {
+display: flex;
+justify-content: right;
+margin-right: 7%;
+}
+.com-holder-3 {
+display: flex;
+justify-content: left;
+margin-left: 7%;
+}
+.com-holder-4 {
+display: flex;
+justify-content: right;
+margin-right: 7%;
+margin-bottom:2%;
+}

@@ -1,0 +1,125 @@
+body {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+.form{
+   width: 650px;
+   padding: 32px;
+   border-radius: 10px; 
+   box-shadow: 0 4px 16px #ccc;
+   letter-spacing: 1px;
+   height: auto;
+}
+.form_input,
+.form_button{
+    letter-spacing: 1px;
+    font-size:16px;
+}
+.form_title{
+text-align: center;
+margin: 0 0 32px 0;
+font-weight: 600;
+}
+.form_group{
+   position: relative; 
+   margin-bottom: 32px;
+}
+.form_label{
+position:absolute ;  
+top: 0;  
+z-index: -1;
+color: #9e9e9e;
+transition: 0.25s;
+left: 0;
+}
+.form_input{
+    width: 100%;
+    padding: 0 0 10px 0;
+    border: none;
+    border-bottom: 1px solid #e0e0e0; 
+    background-color: transparent;
+    outline: none;
+    transition: 0.25s;
+}
+.form_input:focus{
+border-bottom: 1px solid rgba(255, 195, 71);   
+}
+.form_button {
+text-align: center;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+color: #fff;
+background-color: rgba(255, 195, 71);
+outline: none;
+cursor: pointer;
+transition: 0.25s;
+text-decoration: none;
+}
+.form_button:focus,
+.form_button:hover{
+    color: #fff;
+    background-color: rgb(231, 175, 63);
+}
+.form_input:focus ~ .form_label,
+.form_input:not(:placeholder-shown) ~ .form_label {
+top: -18px;
+font-size: 12px;
+color: #e0e0e0;
+}
+.phone{
+    width: 100%;
+    padding: 0 0 10px 0;
+    border: none;
+    border-bottom: 1px solid #e0e0e0; 
+    background-color: transparent;
+    outline: none;
+    transition: 0.25s;
+}
+.phone:focus{
+    border-bottom: 1px solid rgba(255, 195, 71);   
+    }
+    .phone:focus ~ .form_label,
+    .phone:not(:placeholder-shown) ~ .form_label {
+    top: -18px;
+    font-size: 12px;
+    color: #e0e0e0;
+    }
+.form_mail {
+    width: 100%;
+    padding: 0 0 10px 0;
+    border: none;
+    border-bottom: 1px solid #e0e0e0; 
+    background-color: transparent;
+    outline: none;
+    transition: 0.25s; 
+}
+.form_mail:focus{
+    border-bottom: 1px solid rgba(255, 195, 71);   
+    }
+    .form_mail:focus ~ .form_label,
+    .form_mail:not(:placeholder-shown) ~ .form_label {
+    top: -18px;
+    font-size: 12px;
+    color: #e0e0e0;
+    }
+.form_button2 {
+    margin-left: 38%;
+    text-align: center;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: rgb(190, 176, 146);
+    outline: none;
+    cursor: pointer;
+    transition: 0.25s;
+    text-decoration: none;
+        }
+.form_button2:focus,
+.form_button2:hover{
+    color: #fff;
+    background-color: rgb(156, 152, 145);
+        }
