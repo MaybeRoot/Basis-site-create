@@ -28,7 +28,7 @@
     1. Получить API-ключ [Янлекс.Разработчик](https://developer.tech.yandex.ru/services)
     2. Заменить в *index.html* :
        ```html
-          <iframe src="полученный api-ключ" width="760" height="400" frameborder="0"></iframe>
+          <script src="https://api-maps.yandex.ru/2.1/?load=Geolink&amp;lang=ru_RU&amp;apikey=<полученный api-ключ>" type="text/javascript"></script>
        ```
 - **Адаптивное меню** (работает на мобильных устройствах)
 - **Карточки услуг** с ценами и описанием
